@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "testes",
+  "info": {
+    "name": "teste"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "uuid": {
+      "type": "uid",
+      "targetField": "name"
+    }
+  }
+}
